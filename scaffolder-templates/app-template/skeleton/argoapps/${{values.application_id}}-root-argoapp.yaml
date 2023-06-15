@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/raf-backstage-demo/${{values.application_id}}-gitops.git
+    repoURL: https://github.com/day0hero-backstage/${{values.application_id}}-gitops.git
     path: components
     directory:
       include: "*.yaml"
